@@ -66,4 +66,4 @@ define Device/cmcc_rax3000q
  	ath11k-firmware-qcn6122 \
  	ipq-wifi-cmcc_rax3000q	ipq-wifi-cmcc_rax3000q
  endef
- TARGET_DEVICES += cmcc_rax3000qTARGET_DEVICES += cmcc_rax3000q
+ TARGET_DEVICES += cmcc_rax3000q
