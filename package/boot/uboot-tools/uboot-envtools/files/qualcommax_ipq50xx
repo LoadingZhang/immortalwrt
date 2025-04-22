@@ -16,6 +16,9 @@ linksys,spnmx56)
 	[ -n "$idx" ] && \
 		ubootenv_add_uci_config "/dev/mtd$idx" "0x0" "0x40000" "0x20000"
 	;;
+cmcc,rax3000q)
+	ubootenv_add_uci_config "/dev/mtd10" "0x0" "0x10000" "0x20000"
+	;;
 esac
 
 config_load ubootenv
